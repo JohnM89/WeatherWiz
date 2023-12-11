@@ -1,0 +1,168 @@
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+element.style {
+    resize: auto;
+    height: 726px;
+    width: 776px;
+}
+
+#weather-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#weather-display h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#five-day-forecast {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#forecast-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#backgroundVideo {
+    position: fixed;  /* Fixed position to cover the whole screen */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;  /* Minimum width and height to cover the screen */
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;   /* Place it behind all other elements */
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Additional Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f033;
+}
+
+header, main, footer {
+    padding: 10px;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.193);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#current-weather, #five-day-forecast {
+    background: rgba(255, 255, 255, 0.197);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.forecast-item {
+    flex-basis: calc(20% - 10px);
+    margin: 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#current-weather {
+    position: relative;
+}
+
+#weather-gif {
+    position: absolute;
+    right: 620px;
+    top: -107px;
+    width: 0px;
+    height: 5px;
+}
+
+#search-section {
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.gif {
+    position: absolute;
+    right: -599px;
+    resize: auto;
+    width: 150px;
+    top: 154px;
+    height: 101px;
+
+}
+
+#extra-features {
+    position: relative;
+    right: 0px;
+    top: 374px;
+    /* width: 5px; */
+    height: 5px;
+    z-index: 1000;
+}
+
+#extra-features h3 {
+    color: rgb(0, 0, 0);
+    text-align: center, flex;
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+button, input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
